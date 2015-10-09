@@ -33,18 +33,7 @@ if input1.rangeOfString(" ") != nil{
         }
         print(count)
     } else if (input1.rangeOfString("avg") != nil){
-        var total = 0
-        var hold = 0
-        var count = 0
-        for i in input1.characters {
-            if i != " " {
-                count ++
-                let index = input1.startIndex.advancedBy(i)
-                input1[index]
-            } else {
-                count = 0
-            }
-        }
+
     } else if (input1.rangeOfString("fact") != nil){
     
     } else {
